@@ -1,0 +1,12 @@
+1. Trong Kotlin, chúng ta có từ khóa const cũng để khai báo hằng số (VD: const val TAG = "MainActivity"). Hãy tìm hiểu và so sánh const val và val trong Kotlin
+
+2. Để viết vòng lặp for trong Kotlin, chúng ta còn có từ khóa until (VD: for (i in 0 until 10)), hãy so sánh nó với việc sử dụng khoảng (for (i in 0..10))?
+
+1. 
+	giống nhau: đều là kiểu khai báo biến hằng số. Biến này không thể thay đổi giá trị ngoại trừ khi khởi tạo ban đầu.
+	khác nhau:
+		+ const: không thể gán giá trị cho biến bằng số bằng hàm hoặc class.Được khởi tạo với kiểu String hoặc kiểu nguyên thủy.
+		+ val: có thể gán giá trị cho biến hằng số bằng hàm hoặc class.(hằng số thời gian chạy)
+2.
+for(i in 0 until 10)  biến i sẽ chạy từ 0->9(cân số 10)
+for(i in 0..10) biến i sẽ chạy từ 0->10.
